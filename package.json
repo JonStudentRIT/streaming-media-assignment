@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Stream Video and Audio content",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonStudentRIT/streaming-media-assignment.git"
+  },
+  "author": "Jonathan Karcher",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/JonStudentRIT/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/JonStudentRIT/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
